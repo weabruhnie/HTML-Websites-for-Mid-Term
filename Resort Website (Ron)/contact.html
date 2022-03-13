@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RonBNB | Contact</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="container fill-1">
+                <a href="index.html" id="logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="showcase" id="contact-showcase">
+            <div class="container">
+                <div class="showcase-content">
+                    <h1>Contact <span class="text-primary">RonBNB</span></h1>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section id="contact-form" class="fill-1">
+        <section class="container">
+            <h1><span class="text-primary">Contact</span> us. We are 24/7!</h1>
+            <form action="process.php">
+                <article class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </article>
+
+                <article class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </article>
+
+                <article class="form-item">
+                    <label for="message">Message</label>
+                    <textarea rows="12" name="message" id="message"></textarea>
+                </article>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </section>
+    </section>
+
+    <footer>
+        <div class="footer-sections">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact</a>
+            <a href="#nav-bar">Back to top</a>
+        </div>
+
+        <p>RonBNB &copy; 2022, All Rights Reserved</p>      
+    </footer>
+</body>
+</html>
