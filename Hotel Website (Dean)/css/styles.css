@@ -6,7 +6,6 @@
 
 /* Main Styling */
 html,body {
-    font-family: 'Lato', sans-serif;
     line-height: 1.7em;
 }
 
@@ -16,11 +15,17 @@ a {
 }
 
 h1, h2, h3 {
+    font-family: 'DM Serif Display', sans-serif;
     padding-bottom: 20px;
+    font-weight: 300;
 }
 
-p {
-    margin: 10px 0;
+h2 {
+    font-size: 2rem;
+}
+
+a, p {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Utility Classes */
@@ -80,5 +85,152 @@ p {
     background-size: cover;
     background-position: center;
 
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+
+.menu-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.bar {
+    height: 2.5px;
+    background-color: #333;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+
+    margin-bottom: 50px;
+}
+
+.menu-container h1 {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.menu-container h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.rooms-section {
+    margin-bottom: 60px;
+}
+
+.room-list {
+    display: flex;
+    justify-content: space-between ;
+}
+
+.room-list .room-item {
+    width: 30%;
+}
+
+.room-list .room-item-content {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    padding: 20px 20px;
+    background-color: #ffedd9;
+}
+
+.room-list .room-item:hover p {
+    font-weight: 900;   
+}
+
+.room-list .room-item-media {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    height: 250px;
+    background-size: cover;
+}
+
+#room-img-1 {
+    background-image: url(../img/room-1.webp);
+}
+
+#showcase-contain {
+    height: 1400px;
+}
+
+#showcase-list .container {
+    padding: 40px 0;
+}
+
+#showcase-1 {
+    background-image: url(../img/showcase-1.webp);
+}
+
+#showcase-list {
+    width: 1000px;
+    height: 500px;
+}
+
+.showcase-list-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 55px;
+}
+
+.showcase-list-item .showcase-list-media {
+    height: 400px;
+    width: 140%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 30px;
+}
+
+.showcase-list-item .showcase-list-content {
+    width: 80%;
+    padding: 0px 40px
+}
+
+footer {
+    height: 220px;
+    background-color: #333;
+}
+
+footer .container {
+    max-width: 1000px;
+}
+
+footer h2 {
+    margin-top: 40px;
+    color: #e6e6e6;
+}
+
+footer .bar {
+    width: 70%;
+    background-color: #e6e6e6;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+footer .footer-columns {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between
+}
+
+footer .footer-sect {
+    display: flex;
+    flex-flow: column;
+}
+
+footer a, footer p  {
+    color: #e6e6e6;
+    padding-bottom: 7px;
+    text-decoration: underline;
+}
+
+footer p {
+    text-decoration: none;
 }
