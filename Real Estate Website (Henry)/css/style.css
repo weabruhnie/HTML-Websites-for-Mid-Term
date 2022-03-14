@@ -403,6 +403,45 @@ body {
     background-image: url(../img/widget-img-3.webp);   
 }
 
+
+.primary-list .primary-listings-container {
+    padding: 50px 0px;
+}
+
+.listing-lists {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.listing-item {
+    background-color: #eeeeee;
+    margin-bottom: 30px;
+}
+
+.listing-item img {
+    float: left;
+    width: 50%;
+
+    border-radius: 25px;
+
+    padding: 20px;
+}
+
+.listing-item .list-content {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.listing-item .list-content h3 {
+    font-size: 1.7rem;
+}
+
+.listing-item .list-content p {
+    font-size: 1.2rem;
+}
+
 footer .main-container {
     display: flex;
     justify-content: center;    
@@ -443,6 +482,9 @@ footer ul li {
 }
 
 footer ul li a {
-    
     color: #fff;
+}
+
+footer ul li a:hover {
+    color: rgb(87, 208, 238);
 }
