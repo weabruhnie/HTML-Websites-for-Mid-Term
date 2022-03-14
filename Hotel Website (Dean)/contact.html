@@ -23,53 +23,35 @@
         
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html" class="current">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html" class="current">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </section>
     </header>
 
-    <section class="about-container">
+    <section class="contact-container">
         <section class="container">
-            <h1>About us</h1>
+            <h1>Contact us</h1>
 
-            <table>
-                <tr>
-                    <th>Picture</th>
-                    <th>Room</th>
-                    <th>Price</th>
-                </tr>
+            <form action="process.php">
+                <article class="form-item">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </article>
 
-                <tr>
-                    <td>
-                        <img src="img/room-1.webp" alt="">
-                        <img src="img/room-1.webp" alt="">
-                    </td>
-                    <td><p>Guest room</p></td>
-                    <td><p>10$/night</p></td>
-                </tr>
+                <article class="form-item">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </article>
 
-                <tr>
-                    <td>
-                        <img src="img/room-1.webp" alt="">
-                        <img src="img/room-1.webp" alt="">
-                    </td>
-                    <td><p>Guest room</p></td>
-                    <td><p>10$/night</p></td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <img src="img/room-1.webp" alt="">
-                        <img src="img/room-1.webp" alt="">
-                    </td>
-                    <td><p>Guest room</p></td>
-                    <td><p>10$/night</p></td>
-                </tr>
-
-            </table>
+                <article class="form-item">
+                    <label for="message">Message</label>
+                    <textarea rows="12" name="message" id="message"></textarea>
+                </article>
+                <button type="submit" class="btn">Submit</button>
+            </form>
         </section>
     </section>
 

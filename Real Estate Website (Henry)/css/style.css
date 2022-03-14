@@ -13,6 +13,7 @@ h1, h2, h3, a {
     text-align: center;
 }
 
+
 h1 {
     font-size: 3rem;
 }
@@ -403,7 +404,6 @@ body {
     background-image: url(../img/widget-img-3.webp);   
 }
 
-
 .primary-list .primary-listings-container {
     padding: 50px 0px;
 }
@@ -422,7 +422,8 @@ body {
 
 .listing-item img {
     float: left;
-    width: 50%;
+    width: 500px;
+    height: 320px;
 
     border-radius: 25px;
 
@@ -430,8 +431,15 @@ body {
 }
 
 .listing-item .list-content {
+    float: right;
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px 50px;
+    padding-left: 20px;
+}
+
+.listing-item .list-content .content-tips {
+    font-size: 1rem;
+    padding: 40px 0px;
 }
 
 .listing-item .list-content h3 {

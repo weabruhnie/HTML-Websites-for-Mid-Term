@@ -9,6 +9,10 @@ html,body {
     line-height: 1.7em;
 }
 
+table, th, td {
+    border:1px solid black;
+}
+
 a {
     color: #333;
     text-decoration: none;
@@ -77,7 +81,7 @@ a, p {
     text-align: center;
 }
 
-#showcase {
+.showcase {
     height: 500px;
     background: #333;
 
@@ -86,6 +90,10 @@ a, p {
     background-position: center;
 
     margin-bottom: 50px;
+}
+
+#contact-showcase {
+    height: 250px;
 }
 
 .menu-container  {
@@ -134,6 +142,10 @@ a, p {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 
+    border-bottom: 2px solid rgb(53, 43, 43);
+    border-left: 2px solid rgb(53, 43, 43);
+    border-right: 2px solid rgb(53, 43, 43);
+
     padding: 20px 20px;
     background-color: #ffedd9;
 }
@@ -145,6 +157,10 @@ a, p {
 .room-list .room-item-media {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
+    border-top: 2px solid rgb(53, 43, 43);
+    border-left: 2px solid rgb(53, 43, 43);
+    border-right: 2px solid rgb(53, 43, 43);
 
     height: 250px;
     background-size: cover;
@@ -191,6 +207,91 @@ a, p {
 .showcase-list-item .showcase-list-content {
     width: 80%;
     padding: 0px 40px
+}
+
+.contact-container {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-container .form-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.contact-container form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container .form-item label {
+    width: 100px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 10px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: 0;
+    color: rgb(238, 238, 238);
+    border-radius: 20px;
+    background-color: rgb(29, 23, 23);
+}
+
+.contact-container .form-item input {
+    width: 500px;
+    height: 20px;
+}
+
+.contact-container .form-item textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.about-container {
+    text-align: center;
+}
+
+.about-container table {
+    margin-bottom: 50px;
+}
+
+.about-container h1 {
+    font-size: 2.5rem;
+}
+
+.about-container .container {
+    display: flex;
+    flex-flow: column;
+}
+
+.about-container td img{
+    padding: 20px 10px;
+    width: 45%;
+}
+
+.about-container th {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+
+.about-container td p {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    padding: 0px 100px;
 }
 
 footer {
